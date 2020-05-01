@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spirngboot-neo4j
+  data:
+    neo4j:
+      uri: http://127.0.0.1:7474
+      username: neo4j
+      password: liupeng
+
+server:
+  port: 80

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: springboot-websocket
+
+server:
+  port: 80

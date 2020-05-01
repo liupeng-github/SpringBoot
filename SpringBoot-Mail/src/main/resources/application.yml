@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: springboot-main
+  mail:
+    host: smtp.qq.com
+    username: liupeng@qq.com
+    password: 123456789 #QQ邮箱->设置->账户->POP3/SMTP服务：开启服务后获取QQ授权码
+    properties:
+      mail:
+        auth: true
+        starttls:
+          enable: true
+          required: true
+
+server:
+  port: 80

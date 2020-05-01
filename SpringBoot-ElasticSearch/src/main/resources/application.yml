@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springboot-elasticsearch
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
+      repositories:
+        enabled: true
+      local: false
+
+server:
+  port: 80

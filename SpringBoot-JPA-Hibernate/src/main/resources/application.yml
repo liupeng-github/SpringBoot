@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: springboot-jpa-hibernate
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/liupengcloud?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 80

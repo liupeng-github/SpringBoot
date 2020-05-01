@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springboot-mongodb
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: mydb
+
+server:
+  port: 80

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+	<settings>
+		<setting name="cacheEnabled" value="true" /><!-- 二级缓存开启 -->
+        <setting name="logImpl" value="STDOUT_LOGGING" /><!-- 打印查询语句 -->
+        <!-- 开启驼峰命名转换 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+
+	<typeAliases>
+
+		<!-- javaBean Begin -->
+		<typeAlias type="cloud.liupeng.entity.CloudUser" alias="CloudUsers" />
+		<!-- javaBean End -->
+
+		<typeAlias type="java.lang.Integer" alias="Integer" />
+		<typeAlias type="java.lang.String" alias="String" />
+		<typeAlias type="java.lang.Byte" alias="Byte" />
+		<typeAlias type="java.lang.Long" alias="Long" />
+		<typeAlias type="java.math.BigDecimal" alias="BigDecimal" />
+
+		<typeAlias type="java.util.Map" alias="Map" />
+		<typeAlias type="java.util.List" alias="List" />
+	</typeAliases>
+</configuration>

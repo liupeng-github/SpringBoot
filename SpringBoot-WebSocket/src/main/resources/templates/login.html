@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>登陆聊天</title>
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <link href="/css/login.css" rel="stylesheet">
+</head>
+<body>
+<div class="logo_box">
+    <h3 style="color:#000000;">登录聊天</h3>
+    <form id="formId" action="/index" method="post">
+        <div class="input_outer">
+            <span class="u_user"></span>
+            <input id="username" name="username" class="text" type="text" placeholder="任意用户名">
+        </div>
+        <div class="input_outer">
+            <span class="us_uer"></span>
+            <input id="password" name="password" class="text" type="password" placeholder="任意密码">
+        </div>
+        <div class="mb2">
+            <a class="act-but submit" onclick="login()">登录</a>
+        </div>
+    </form>
+</div>
+<script src="/js/login.js"></script>
+</body>
+</html>

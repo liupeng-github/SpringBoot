@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: springboot-thymeleaf
+  thymeleaf:
+    cache: false #关闭thymeleaf缓存，开发时使用
+    check-template-location: true #检查模板是否存在，然后再呈现
+    servlet:
+      content-type: text/html #Content-Type值
+    enabled: true #启用MVC Thymeleaf视图分辨率
+    #excluded-view-names:  #排除的视图名称以逗号分隔
+    mode: LEGACYHTML5 #模板编码
+    prefix: classpath:/templates/
+
+server:
+  port: 80
+
+multipart:
+  maxFileSize: 50MB #单个文件大小
+  maxRequestSize: 500MB #总文件大小

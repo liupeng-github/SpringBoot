@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springboot-kafka
+  kafka:
+    producer:
+      bootstrap-servers:
+        - 127.0.0.1:9092
+    consumer:
+      group-id: springboot-group
+      auto-offset-reset: earliest
