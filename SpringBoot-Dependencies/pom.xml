@@ -27,7 +27,7 @@
         <guava.version>28.2-jre</guava.version>
         <oval.version>1.90</oval.version>
         <fastjson.version>1.2.68</fastjson.version>
-        <shiro.version>1.5.2</shiro.version>
+        <shiro.version>1.7.1</shiro.version>
         <thymeleaf-extras-shiro.version>2.0.0</thymeleaf-extras-shiro.version>
         <jquery.version>3.5.0</jquery.version>
         <mdui.version>0.4.3</mdui.version>
